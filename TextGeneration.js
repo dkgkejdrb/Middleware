@@ -36,8 +36,8 @@ app.post("/textGeneration", (req, res) => {
     const file = req.body;
 
     // 네이버 접속정보
-    api_key = "NTA0MjU2MWZlZTcxNDJiY6Iz50DMZG5xolkuj8ha3TO3FdDaV1zAIotlU2CHqXY1wcCwKKnzHiS9V8aQ8paGleloH41sfQNBjEayDIn/CECbjeSjMS8NArzkLa7rQFrVsS7fZunyp1LvLJMxz0GP1/MjJOK26VvHkytlTZNjmDLDa+P/d+1nam+DUWCSrP3PfIdhtOLLpiBO9783Y1r3BtXm0RBwEHqBUcW8hJiDPmY=";
-    client_secret = "qPEMPHFkbh43M82iFHmeW6CVvtHMA1mSrgrA8OLY";
+    const api_key = "NTA0MjU2MWZlZTcxNDJiY6Iz50DMZG5xolkuj8ha3TO3FdDaV1zAIotlU2CHqXY1wcCwKKnzHiS9V8aQ8paGleloH41sfQNBjEayDIn/CECbjeSjMS8NArzkLa7rQFrVsS7fZunyp1LvLJMxz0GP1/MjJOK26VvHkytlTZNjmDLDa+P/d+1nam+DUWCSrP3PfIdhtOLLpiBO9783Y1r3BtXm0RBwEHqBUcW8hJiDPmY=";
+    const client_secret = "qPEMPHFkbh43M82iFHmeW6CVvtHMA1mSrgrA8OLY";
     // 유명인 얼굴인식 API 주소
     const api_url =
         "https://clovastudio.apigw.ntruss.com/testapp/v1/completions/LK-B";
