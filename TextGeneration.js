@@ -36,8 +36,8 @@ app.post("/textGeneration", (req, res) => {
     const file = req.body;
 
     // 네이버 접속정보
-    const api_key = "NTA0MjU2MWZlZTcxNDJiY6Iz50DMZG5xolkuj8ha3TO3FdDaV1zAIotlU2CHqXY1wcCwKKnzHiS9V8aQ8paGleloH41sfQNBjEayDIn/CECbjeSjMS8NArzkLa7rQFrVsS7fZunyp1LvLJMxz0GP1/MjJOK26VvHkytlTZNjmDLDa+P/d+1nam+DUWCSrP3PfIdhtOLLpiBO9783Y1r3BtXm0RBwEHqBUcW8hJiDPmY=";
-    const client_secret = "qPEMPHFkbh43M82iFHmeW6CVvtHMA1mSrgrA8OLY";
+    const api_key = "NTA0MjU2MWZlZTcxNDJiY/hw+5al1Y52NcCQ6chPB8dJJRq4rL7ILqKnO97egsWdluAlqT0XAYJ6e/NX+wNgPkg6eB4pObV/xRnos1SMqx1cKBdITGnB27qgB0J6N9KQGXu3YFTSDqKGqetjaU+2BC689kNGnW5FAv9DuDguKnCh+JWPjIpkT+6ZTtaok0WVTi3r2zsLhcXR8wabDQ/7wXa87mXCYrFMPDz6Cqrtqbw=";
+    const client_secret = "xG2hgTB5ypuvujm4ubKlYM5pXXDbY7lDeu8fSLTc";
     // 유명인 얼굴인식 API 주소
     const api_url =
         "https://clovastudio.apigw.ntruss.com/testapp/v1/completions/LK-B";

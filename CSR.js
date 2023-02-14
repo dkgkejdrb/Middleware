@@ -33,8 +33,8 @@ app.post("/CSR", (req, res) => {
           const file = req.file;
 
         // 네이버 접속정보
-        client_id = "cp1p420rne";
-        client_secret = "y3cYkPSMlGSgbp64aScunDXAgumof6JOrWaneUpZ";
+        client_id = "nuhgb1z5i4";
+        client_secret = "ZCVxJQM1gdVriGyIKTo5ULkI4akam5wjscIamPCg";
         // 유명인 얼굴인식 API 주소
         const api_url =
             "https://naveropenapi.apigw.ntruss.com/recog/v1/stt?lang=Kor";

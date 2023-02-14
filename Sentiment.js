@@ -32,48 +32,16 @@ app.post("/sentiment", (req, res) => {
       console.log("An unknown error occurred when uploading.");
     }
 
-      // cor 패스
-      // res.header("Access-Control-Allow-Origin", "*");
-
-      // 파일 정보 추출
-    //   const file = req.file;
-    //   console.log(req);
-
     const file = req.body;
 
       // 네이버 접속정보
-      client_id = "cp1p420rne";
-      client_secret = "y3cYkPSMlGSgbp64aScunDXAgumof6JOrWaneUpZ";
+      client_id = "nuhgb1z5i4";
+      client_secret = "ZCVxJQM1gdVriGyIKTo5ULkI4akam5wjscIamPCg";
       // 유명인 얼굴인식 API 주소
       const api_url =
         "https://naveropenapi.apigw.ntruss.com/sentiment-analysis/v1/analyze";
 
       if (file !== null) {
-        // const form = new FormData();
-        // // 네이버 API 요청 시, image 필드명이 반드시 필요
-        // // form.append("content", fs.createReadStream("uploads/sentiment/" + file.filename));
-        // form.append("content", "안녕하세요~")
-
-        // form.append("content", content);
-
-        // axios
-        //   .post(api_url, form, {
-        //     headers: {
-        //       // axios는 content-type을 자동으로 잡지 못하기 때문에 아래와 같이 contenty-type을 보냄
-        //       ...form.getHeaders(),
-        //       "X-NCP-APIGW-API-KEY-ID": client_id,
-        //       "X-NCP-APIGW-API-KEY": client_secret,
-        //     },
-        //   })
-        //   .then((response) => {
-        //     res.send(response.data);
-        //   })
-        //   .catch((err) => {
-        //     res.send(err.response.data.errorMessage);
-        //   });
-
-        const config = { "Content-Type": 'application/json' };
-
         axios.post(api_url, file, {
             headers: {
               // axios는 content-type을 자동으로 잡지 못하기 때문에 아래와 같이 contenty-type을 보냄

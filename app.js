@@ -7,6 +7,8 @@ const QuestionAnswering = require("./QuestionAnswering")
 const TextGeneration = require("./TextGeneration")
 const faceCam = require("./faceCam")
 const objectDetection = require("./objectDetection")
+const ImageTranslateImage = require("./ImageTranslateImage")
+const papagoTextTranslation = require("./PapagoTextTranslation")
 
 // CFR 유명인 얼굴인식 모듈
 CFRcelebrity
@@ -26,3 +28,7 @@ TextGeneration
 faceCam
 // 사물감지 모듈
 objectDetection
+// 이미지 번역 후, 이미지
+ImageTranslateImage
+// 텍스트 번역 후, 텍스트
+papagoTextTranslation
