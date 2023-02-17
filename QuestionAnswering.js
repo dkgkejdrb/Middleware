@@ -35,6 +35,8 @@ app.post("/questioningAnswering", (req, res) => {
 
     const file = req.body;
 
+    console.log(req);
+
     // 네이버 접속정보
     const api_key = "NTA0MjU2MWZlZTcxNDJiYxjpO+XPT1MlseoSSnY6w4KFvDskA8fmaLkHwT1BgLegcbpf9sGYysfBHFhtpD10UYyUDdfV4rDNVA9NiaS4erYz/QtnjE4d7oCWKAZViZ6gARgLC+JL5VrdZZI/r3bLDwLx8c4Nq9sxL0JzDyDQzCdaKiRSEskPHBTGdPqaAj0lUZPfylfVmQ+cjUsYvftezhFpiUOKnbL2eEL7nix12oc=";
     const client_secret = "xG2hgTB5ypuvujm4ubKlYM5pXXDbY7lDeu8fSLTc";
