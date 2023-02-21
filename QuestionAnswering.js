@@ -42,7 +42,8 @@ app.post("/questioningAnswering", (req, res) => {
     const client_secret = "xG2hgTB5ypuvujm4ubKlYM5pXXDbY7lDeu8fSLTc";
     // 유명인 얼굴인식 API 주소
     const api_url =
-        "https://clovastudio.apigw.ntruss.com/testapp/v1/completions/LK-B";
+        // "https://clovastudio.apigw.ntruss.com/testapp/v1/completions/LK-B";
+        file?.engine;
 
     if (file !== null) {
         axios.post(api_url, file, {
